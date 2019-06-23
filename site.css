@@ -1,0 +1,136 @@
+h1,h2{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-size: 100%;
+}
+body{
+	background-color: #F2FFFC;
+    font-family: "Crimson Text","Times New Roma",serif;
+    font-size: 120%;
+    line-height: 1.5;
+}
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+.titulo-principal {
+    font-size: 60px;
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    margin: 0;
+    border-bottom: 10px solid black;
+    text-transform: uppercase;
+}
+.citacao-bio {
+    background-color: #D9E5E3;
+    border: 10px solid #c2ccca ;
+    width: 250px;
+    margin: 20px 40px;
+    box-sizing:border-box;
+}
+.citacao-bio, .navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+.navegacao-site{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    clear:right;
+}
+.navegacao-site h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+main a {
+    color: #851944;
+}
+
+.navegacao-site a {
+    color:  #F2FFFC;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.icones-sociais li{
+    display: inline-block;
+}
+.citacao-bio, .navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+.container {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
+strong{
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+.subtitulo-texto {
+    font-size: 30px;
+    clear: both;
+}
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+}
+.artigo {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.leia-mais{
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+    color: transparent;
+}
+.github{
+    background-image: url(github.png);
+}
+.twitter{
+    background-image: url(twitter.png);
+}
+.linkedin{
+    background-image: url(linkedin.png)
+}
+.petrobras{
+    float: left;
+}
+.fiat{
+    float: right;
+}
+.minha-foto{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.minha-foto, .navegacao-site {
+	float: right;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+.navegacao-site{
+    width: 15%;
+    position:relative;
+    top:310px;
+}
+main{
+    float: left;
+    width:85%;
+}
